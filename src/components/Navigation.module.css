@@ -1,0 +1,26 @@
+.navWrapper {
+  position: absolute;
+  top: 0;
+  height: 60px;
+  width: 500px;
+  background-color: #339af0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.buttonNav {
+  background-color: transparent;
+  outline: none;
+  border: transparent;
+  color: #e9ecef;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.buttonNav:hover {
+  color: white;
+}

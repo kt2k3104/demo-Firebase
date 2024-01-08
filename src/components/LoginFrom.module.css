@@ -1,0 +1,17 @@
+.formGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.inputBox-label {
+  width: 150px;
+  display: inline-block;
+}
+
+.buttonSubmit {
+  align-self: center;
+}

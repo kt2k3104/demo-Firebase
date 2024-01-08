@@ -1,0 +1,34 @@
+.wrapper {
+  background-color: #339af0;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 16px;
+  margin: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper * {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper p {
+  color: #dfe4ea;
+}
+
+.deleteBtn,
+.editBtn {
+  outline: none;
+  border: none;
+  background-color: red;
+  color: white;
+  padding: 5px 16px;
+  cursor: pointer;
+}
+.editBtn {
+  background-color: #333;
+  margin-left: 5px;
+}
